@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>Registration Form</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <h1 id="title">Best Steamer Survey Form
+  </h1>
+  <p id="description">Thank you for taking the time to help us improve our service</p>
+
+  <form id="survey-form">
+    <label id="name-label">Enter your name: </label>
+    <input id="name" type="text" required placeholder="John Smith"></input>
+    <label id="email-label">Enter your email: </label>
+    <input id="email" type="email" required placeholder="JohnSmith@gmail.com"></input>
+    <label id="number-label">Enter your age: </label>
+    <input type="number" id="number" min="13" max="120" placeholder="35"></input>
+    
+    <label for="dropdown">Which option best describes your current role?</label>
+    <select id="dropdown">
+      <option value="">(select current role)</option>
+      <option value="1">Student</option>
+      <option value="2">Part Time Job</option>
+      <option value="3">Full Time Job</option>
+      <option value="4">Retired</option>
+      <option value="5">Other</option>
+    </select>
+
+    <label>Would you recommend Best Steamer to a friend or family?</label>
+    <label for="definitely"><input id="definitely" value="1" type="radio" name="recommend" class="inline" checked /> Definitely</label>
+    <label for="maybe"><input id="maybe" value="2" type="radio" name="recommend" class="inline" /> Maybe</label>
+    <label for="not-sure"><input id="not-sure" value="3" type="radio" name="recommend" class="inline" /> Not Sure</label>
+
+  <select id="dropdown">
+      <option value="">(select current role)</option>
+      <option value="1">Student</option>
+      <option value="2">Part Time Job</option>
+      <option value="3">Full Time Job</option>
+      <option value="4">Retired</option>
+      <option value="5">Other</option>
+    </select>
+
+    <label>What was your favorite feature of your experience?</label>
+    <label for="definitely"><input id="definitely" value="1" type="checkbox" class="inline" checked /> Quality clean</label>
+    <label for="maybe"><input id="maybe" value="2" type="checkbox" class="inline" /> Customer Service</label>
+    <label for="not-sure"><input id="not-sure" value="3" type="checkbox" class="inline" /> Punctuality</label>
+
+    <label for="bio">Any comments or suggestions?
+          <textarea id="bio" name="bio" rows="3" cols="30" placeholder="Great Service..."></textarea>
+    </label>
+
+    <input id="submit" type="submit" value="Submit" />
+  </form>
+</html>
