@@ -23,7 +23,7 @@ In this Responsive Web Design Certification, you'll learn the languages that dev
 
 - Learn Accessibility by Building a Quiz ✔️
 
-- **Certification Project : Tribute Page** ✔️
+- **Certification Project : Tribute Page** ✔️ 
 ---
 - Learn More About CSS Pseudo Selectors By Building A Balance Sheet ✔️
 
